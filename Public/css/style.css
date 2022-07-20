@@ -1,7 +1,7 @@
 body{
     background-color: black;
 }
-h1, h2, h3, h4, h5, h6, hr, p{
+h1, h2, h3, h6 hr, p{
     color: white;
 }
 .center {
@@ -16,4 +16,19 @@ hr{
     height: 10px;
     background-color: transparent;
     border: 0 none;
+}
+.expborder{
+    border: solid;
+    border-color: grey;
+}
+h4{
+    color: aqua;
+    font-size: medium;
+}
+.card{
+    background-color: grey;
+    margin: 10px;
+}
+.card-img-top{
+    border-radius: 10%;
 }
